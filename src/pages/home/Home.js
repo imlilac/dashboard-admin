@@ -1,5 +1,6 @@
 import React from "react";
+import Feature from "../../components/Feature/Feature";
 
 export default function home() {
-   return <div>home</div>;
+   return <Feature />;
 }
