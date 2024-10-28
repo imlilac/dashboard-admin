@@ -9,6 +9,7 @@ export default function Home() {
       <div className="home">
          <Feature />
          <Chart grid title="Monthly Sale" data={xAxisData} dataKey="Sale" />
+         <div className="homeWidgets"></div>
       </div>
    );
 }
