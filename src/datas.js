@@ -49,4 +49,31 @@ let xAxisData = [
    },
 ];
 
-export { xAxisData };
+const newMembers = [
+   {
+      id: 1,
+      username: "Kim Taehyung",
+      title: "Web Developer",
+      img: "images/logo.jpg",
+   },
+   {
+      id: 2,
+      username: "Jeon Jungkook",
+      title: "Seo Eng",
+      img: "images/logo.jpg",
+   },
+   {
+      id: 3,
+      username: "Kim Namjoon",
+      title: "Weblog",
+      img: "images/logo.jpg",
+   },
+   {
+      id: 4,
+      username: "Min Yoongi",
+      title: "Hacker",
+      img: "images/logo.jpg",
+   },
+];
+
+export { xAxisData, newMembers };

@@ -1,6 +1,7 @@
 import React from "react";
 import Feature from "../../components/Feature/Feature";
 import Chart from "../../components/Chart/Chart";
+import WidgetSm from "../../components/WidgetSm/WidgetSm";
 import { xAxisData } from "../../datas";
 import "./Home.css";
 
@@ -9,7 +10,9 @@ export default function Home() {
       <div className="home">
          <Feature />
          <Chart grid title="Monthly Sale" data={xAxisData} dataKey="Sale" />
-         <div className="homeWidgets"></div>
+         <div className="homeWidgets">
+            <WidgetSm />
+         </div>
       </div>
    );
 }
